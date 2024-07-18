@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funzee</title>
+   <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Funzee!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This page is all about having fun with images. We use different category of images to create a crazy, funny image!</p>
+        <aside>
+            <h3>Fun Fact</h3>
+            <p>Did you know that HTML stands for HyperText Markup Language?</p>
+        </aside>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <article>
+            <h3>Image 1</h3>
+            <img src="https://i.pinimg.com/474x/99/d5/e9/99d5e9c6022927ebee8cec32af07da31.jpg" alt="A crazy fun image">
+            <p>Crazy and Funny Pic.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Crazy Fun Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
